@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Styles In CSS</title>
+        <link rel="stylesheet" href="Project-Styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>My CSS Guide</h1>
+        </header>
+
+        <main>
+            <div class="examples">
+                <button>Standard Button</button>
+                <button class="skeuomorphic">Skeuomorphic</button>
+                <button class="flat">Flat</button>
+            </div><br><br>
+
+            <div>
+                <table>
+                    <thead>
+                        <td colspan="3" style="text-align: center;">STANDARD BUTTON</td>
+                        <tr>
+                            <td>Added</td>
+                            <td>Current Code</td>
+                            <td>Cuurent Look</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>N/A</td>
+                            <td>Nothing</td>
+                            <td><button>Test</button></td>
+                        </tr>
+                        <tr>
+                            <td>height: 50px</td>
+                            <td>height: 50px;</td>
+                            <td><button class="stand-1">Test</button></td>
+                        </tr>
+                        <tr>
+                            <td>width: 200px</td>
+                            <td>height: 50px;<br>width: 200px;</td>
+                            <td><button class="stand-2">Test</button></td>
+                        </tr>
+                        <tr>
+                            <td>font-weight: 600</td>
+                            <td>height: 50px;<br>width: 200px;<br>font-weight: 600;</td>
+                            <td><button class="stand-3">Test</button></td>
+                        </tr>
+                        <tr>
+                            <td>font-size: 15px</td>
+                            <td>height: 50px;<br>width: 200px;<br>font-weight: 600;<br>font-size: 15px;</td>
+                            <td><button class="stand-4">Test</button></td>
+                        </tr>
+                        <tr>
+                            <td>cursor: pointer</td>
+                            <td>height: 50px;<br>width: 200px;<br>font-weight: 600;<br>font-size: 15px;<br>cursor: pointer;</td>
+                            <td><button class="stand-5">Test</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <table>
+                    <thead>
+                        <td colspan="3" style="text-align: center;">SKEUOMORPHIC BUTTON</td>
+                        <tr>
+                            <td>Added</td>
+                            <td>Current Code</td>
+                            <td>Cuurent Look</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>N/A</td>
+                            <td>Standard Button Code<br>height: 50px;<br>width: 200px;<br>font-weight: 600;<br>font-size: 15px;<br>cursor: pointer;</td>
+                            <td><button class="stand-5">Test</button></td>
+                        </tr>
+                        <tr>
+                            <td>border: 2px solid #0c960c</td>
+                            <td>border: 2px solid #0c960c;</td>
+                            <td><button class="ske-1">Test</button></td>
+                        </tr>
+                        <tr>
+                            <td>border-radius: 5px</td>
+                            <td>border-radius: 5px;<br>border: 2px solid #0c960c;</td>
+                            <td><button class="ske-2">Test</button></td>
+                        </tr>
+                        <tr>
+                            <td>box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2), 0px -2px 2px rgba(255, 255, 255, 0.5) inset, 0 2px 2px rgba(255, 255, 255, 0.8) inset</td>
+                            <td>box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2), 0px -2px 2px rgba(255, 255, 255, 0.5) inset, 0 2px 2px rgba(255, 255, 255, 0.8) inset;<br>border-radius: 5px;<br>border: 2px solid #0c960c;</td>
+                            <td><button class="ske-3">Test</button></td>
+                        </tr>
+                        <tr>
+                            <td>background: linear-gradient(#1D1, #0ebc0e)</td>
+                            <td>background: linear-gradient(#1D1, #0ebc0e);<br>box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2), 0px -2px 2px rgba(255, 255, 255, 0.5) inset, 0 2px 2px rgba(255, 255, 255, 0.8) inset;<br>border-radius: 5px;<br>border: 2px solid #0c960c;</td>
+                            <td><button class="ske-4">Test</button></td>
+                        </tr>
+                        <tr>
+                            <td>color: #F8F8F8</td>
+                            <td>color: #F8F8F8;<br>background: linear-gradient(#1D1, #0ebc0e);<br>box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2), 0px -2px 2px rgba(255, 255, 255, 0.5) inset, 0 2px 2px rgba(255, 255, 255, 0.8) inset;<br>border-radius: 5px;<br>border: 2px solid #0c960c;</td>
+                            <td><button class="ske-5">Test</button></td>
+                        </tr>
+                        <tr>
+                            <td>text-shadow: 0 -2px #0c960c</td>
+                            <td>text-shadow: 0 -2px #0c960c;<br>color: #F8F8F8;<br>background: linear-gradient(#1D1, #0ebc0e);<br>box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2), 0px -2px 2px rgba(255, 255, 255, 0.5) inset, 0 2px 2px rgba(255, 255, 255, 0.8) inset;<br>border-radius: 5px;<br>border: 2px solid #0c960c;</td>
+                            <td><button class="ske-6">Test</button></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align: center;">SKEUOMORPHIC HOVER CODE</td>
+                        </tr>
+                        <tr>
+                            <td>box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1), 0px -2px 2px rgba(255, 255, 255, 0.25) inset, 0 2px 2px rgba(255, 255, 255, 0.4) inset<br>background: #0ebc0e<br>background: linear-gradient(#0ebc0e, #0c960c)<br>border-color: #064f06</td>
+                            <td>box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1), 0px -2px 2px rgba(255, 255, 255, 0.25) inset, 0 2px 2px rgba(255, 255, 255, 0.4) inset;<br>background: #0ebc0e;<br>background: linear-gradient(#0ebc0e, #0c960c);<br>border-color: #064f06;</td>
+                            <td><button class="ske-6 sh">Test</button></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align: center;">SKEUOMORPHIC ACTIVE CODE</td>
+                        </tr>
+                        <tr>
+                            <td>margin-top: 2px<br>margin-bottom: -2px<br>box-shadow: 0px 2px 2px rgba(63, 63, 63, 0.1), 0px -2px 2px rgba(255, 255, 255, 0.25) inset, 0 2px 2px rgba(255, 255, 255, 0.4) inset<br>background: #0c960c<br>background: linear-gradient(#0c960c, #0ebc0e);</td>
+                            <td>margin-top: 2px;<br>margin-bottom: -2px;<br>box-shadow: 0px 2px 2px rgba(63, 63, 63, 0.1), 0px -2px 2px rgba(255, 255, 255, 0.25) inset, 0 2px 2px rgba(255, 255, 255, 0.4) inset;<br>background: #0c960c;<br>background: linear-gradient(#0c960c, #0ebc0e);</td>
+                            <td><button class="ske-6 sh sa">Test</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <table>
+                    <thead>
+                        <td colspan="3" style="text-align: center;">FLAT BUTTON</td>
+                        <tr>
+                            <td>Added</td>
+                            <td>Current Code</td>
+                            <td>Cuurent Look</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>N/A</td>
+                            <td>Standard Button Code<br>height: 50px;<br>width: 200px;<br>font-weight: 600;<br>font-size: 15px;<br>cursor: pointer;</td>
+                            <td><button class="stand-5">Test</button></td>
+                        </tr>
+                        <tr>
+                            <td>background-color: #1D1</td>
+                            <td>background-color: #1D1;</td>
+                            <td><button class="flat-1">Test</button></td>
+                        </tr>
+                        <tr>
+                            <td>color: #fff</td>
+                            <td>background-color: #1D1;<br>color: #fff;</td>
+                            <td><button class="flat-2">Test</button></td>
+                        </tr>
+                        <tr>
+                            <td>border: 2px solid #12dd23</td>
+                            <td>background-color: #1D1;<br>color: #fff;<br>border: 2px solid #12dd23;</td>
+                            <td><button class="flat-3">Test</button></td>
+                        </tr>
+                        <tr>
+                            <td>border-radius: 10px</td>
+                            <td>background-color: #1D1;<br>color: #fff;<br>border: 2px solid #12dd23;<br>border-radius: 10px;</td>
+                            <td><button class="flat-4">Test</button></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align: center;">FLAT HOVER CODE</td>
+                        </tr>
+                        <tr>
+                            <td>background-color: #0c960c<br>transition: background-color .15s, font-size .15s<br>font-size: 18px</td>
+                            <td>background-color: #0c960c;<br>transition: background-color .15s, font-size .15s;<br>font-size: 18px;</td>
+                            <td><button class="flat-4 fh">Test</button></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align: center;">FLAT ACTIVE CODE</td>
+                        </tr>
+                        <tr>
+                            <td>border-color: #fff</td>
+                            <td>border-color: #fff;</td>
+                            <td><button class="flat-4 fh fa">Test</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </body>
+</html>
